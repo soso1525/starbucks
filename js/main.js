@@ -93,7 +93,7 @@ new Swiper('.awards .swiper-container', {
   slidesPerView: 5, // 한 슬라이드에 5개 보여줌
   navigation: {
     prevEl: '.awards .swiper-prev',
-    nextEl: '.awards .swiper-prev'
+    nextEl: '.awards .swiper-next'
   }
 })
 
@@ -178,4 +178,4 @@ toTopEl.addEventListener('click', function() {
   gsap.to(window, .7, {
     scrollTo: 0
   })
-}) 
+})
